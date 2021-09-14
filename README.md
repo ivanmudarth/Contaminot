@@ -1,7 +1,23 @@
-# ContamiNot
-ContamiNot is a web application that detects and notifies when the user touches their face in order to prevent the spread of COVID-19. The facial recognition detector runs in the background so while you're using your computer you will receive immediate reminders to put an end to this habit. The application also keeps track of duration you touch your face and visualizes it in a graph. Built during TOHacks2020!
+<p align="center">
+  <a href="https://github.com/ivanmudarth/Contaminot">
+    <img src="https://user-images.githubusercontent.com/33183884/133178350-478d55c0-12fb-4910-b646-e443e9906d93.png" alt="Logo" width="100" height="100">
+  </a>
 
-# Inspiration
+  <h1 align="center">Contaminot</h1>
+  
+  <p align="center">
+    Web application to prevent the spread of COVID-19.
+  </p>
+  <p align="center">
+    <a href="https://devpost.com/software/contaminot">View Devpost</a>
+  </p>
+</p>
+
+</br>
+
+***
+
+# Description
 As public health officials repeatedly advise people to stop touching their faces in order to protect themselves against the new coronavirus, many individuals are starting to notice how often they do it and how difficult it is to stop.
 
 Healthcare professionals have warned the public to wash their hands often and to avoid touching their faces, particularly their eyes and mouths, because severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), the virus which causes COVID-19, can linger on some surfaces for hours or even days.
@@ -18,18 +34,10 @@ A series of images are grabbed from the video camera during training and assigne
 
 The data visualizer extracts two variables from the facial recognition model -- how many times you have touched your face and at what time each face touch occurred. Using the Chart.js library we were able to graph this data to provide the user with valuable insights.
 
-# Challenges We ran into
-The biggest challenge we faced was connecting and coordinating the facial recognition software with the data visualizer. Not to mention, brainstorming a project that would solve a problem related to the coronavirus took up a lot of our time. We went back on forth trying to fix problems that were beyond our abilities, however, by the end we were able to set our sights on a problem that was relatively simple yet important to address.
+# Authors
 
-#Accomplishments that We're proud of
-One thing we were proud of was our ability to implement the TensorFlow library to detect when a user's hand is near their face and when it isn't. This was our first time attempting to use an ML model and we were able to successfully train the model to complete our desired task.
+Ivan Mudarth (@ivanmudarth)
 
-#What's next for ContamiNot
-In the future we would like to work on the following features:
+Andy Chen (@AndyKChen)
 
-Improve the UI and layout of our website
-Give users access to more meaningful data and find other ways to visualize their data
-Tackle other simple problems that could prevent you from catching the coronavirus (e.g. how often you wash your hands)
-
-# Source Code Used
-https://jsfiddle.net/chadwallacehart/cn9axqpr/?utm_source=website&utm_medium=embed&utm_campaign=cn9axqpr
+Siddu Palaparthi (@PSiddu)
